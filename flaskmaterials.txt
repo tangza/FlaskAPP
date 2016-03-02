@@ -1,0 +1,6 @@
+GIT of books: 
+    https://github.com/humiaozuzu/awesome-flask
+    http://python.jobbole.com/84249/
+Flask home:
+    http://flask.pocoo.org/
+    
