@@ -8,17 +8,10 @@ from flask import render_template, url_for, abort, flash
 
 from contextlib import closing
 
-# configuration
-DATABASE = 'D:/Workspace/python/gitroot/FlaskApp/myblog/Application/tmp/myblog.db'
-DEBUG = True
-SECRET_KEY = 'development key'
-USERNAME = 'admin'
-PASSWORD = 'default'
-
 #########################################################################
 
 app = Flask(__name__)
-app.config.from_object(__name__)
+app.config.from_object('config')
 
 #########################################################################
 
